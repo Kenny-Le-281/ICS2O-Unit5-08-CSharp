@@ -14,7 +14,7 @@ class Program
         int secondInteger;
         int numberCountingDown;
         int answer = 0;
-        
+
         // input
         Console.WriteLine("This program does division using subtraction");
 
@@ -22,7 +22,7 @@ class Program
         Console.Write("Please enter the first integer: ");
         firstInteger = Convert.ToInt32(Console.ReadLine());
         numberCountingDown = firstInteger;
-
+        
         Console.WriteLine("");
         Console.Write("Please enter the second integer: ");
         secondInteger = Convert.ToInt32(Console.ReadLine());
@@ -45,6 +45,8 @@ class Program
                 numberCountingDown = numberCountingDown - secondInteger;
                 answer++;
             }
+            
+            secondInteger = -Math.Abs(secondInteger);
         }
         else
         {
