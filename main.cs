@@ -30,7 +30,7 @@ class Program
         // process
         if ((firstInteger > 0) && (secondInteger > 0))
         {
-            while (numberCountingDown >= secondInteger) 
+            while (numberCountingDown >= secondInteger)
             {
                 numberCountingDown = numberCountingDown - secondInteger;
                 answer++;
