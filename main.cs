@@ -22,7 +22,7 @@ class Program
         Console.Write("Please enter the first integer: ");
         firstInteger = Convert.ToInt32(Console.ReadLine());
         numberCountingDown = firstInteger;
-        
+
         Console.WriteLine("");
         Console.Write("Please enter the second integer: ");
         secondInteger = Convert.ToInt32(Console.ReadLine());
@@ -45,7 +45,7 @@ class Program
                 numberCountingDown = numberCountingDown - secondInteger;
                 answer++;
             }
-            
+
             secondInteger = -Math.Abs(secondInteger);
         }
         else
